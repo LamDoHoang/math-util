@@ -30,3 +30,18 @@ git push -u origin main
 git add *
 git commit -m "lí do đưa lên"
 git push
+
+Câu lệch hay dùng hàng ngày khi kho đã có rồi, đã đc đưa lên server rồi
+-Câu lệnh, chuyển đến thư mục chứa code muốn đẩy lên server. Dùng lệnh cd theo từng mức thư mục/directory/folder
+-Thoải mái sửa code, thêm bớt tập tin trong kho
+-Sau cùng gõ 3 lệnh huyền thoại
+	git add * hoặc git add . đều đc
+	git commit -m "ghi rõ và tóm tắt bạn đã sửa gì"
+	git push
+
+Khi kho đc chia sẻ chung cho mọi ng cùng sửa project có nhiều ng cùng làm, ta phải invite mọi ng vào chơi chung
+trong kho, có nút nhấn trên Server để invite(giống share google doc)
+-Coi chừng bị conflict khi nhiều ng cùng thao tác trên cùng 1 tài nguyên, 1 tập tin
+-Khi nào bị conflict
+
+-Xử lí thế nào
