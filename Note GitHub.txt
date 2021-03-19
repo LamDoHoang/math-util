@@ -42,6 +42,16 @@ Câu lệch hay dùng hàng ngày khi kho đã có rồi, đã đc đưa lên se
 Khi kho đc chia sẻ chung cho mọi ng cùng sửa project có nhiều ng cùng làm, ta phải invite mọi ng vào chơi chung
 trong kho, có nút nhấn trên Server để invite(giống share google doc)
 -Coi chừng bị conflict khi nhiều ng cùng thao tác trên cùng 1 tài nguyên, 1 tập tin
--Khi nào bị conflict
-
--Xử lí thế nào
+-Khi nào bị conflict:
+ khi chúng ta up từ local lên mà trc đó server đã có ai đó commit rồi
+ Local chứa bản outdate/cũ, mà lại có thêm phần mới của ta. GitHub bối rối: đẩy phần của ta lên server, đè lun
+ phần mới của ngta, hay merge cả hai?
+ Hiện tượng này gọi là conflict trong việc giữ kết quả của ai
+-Xử lí thế nào:
+ Ta nên xem server khác ta cái gì, ngoài phần mới của ta. Sau đó ta quyết định merge, hay xóa của ngta giữ của
+ mình. Ta sẽ tự quyết định
+ Ta nên đồng bộ với server xem nó có gì đã
+ Gõ lệnh: git pull sẽ kéo server về trộn với cái của ta
+ Và ta quyết định merge ra sao. Dấu hiệu của ta và của server đc đánh dấu qua <<<<<<<<<<<<<
+ Nhớ tắt file local trc khi gõ lệnh git pull
+ Sau đó gõ 3 lệnh huyền thoại.
