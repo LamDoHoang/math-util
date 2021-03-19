@@ -1,0 +1,32 @@
+https://github.com/LamDoHoang/math-util.git
+kho chứa code, chứa dự án, url: ten-cua-ban/ten-kho
+
+echo "# math-util" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/LamDoHoang/math-util.git
+git push -u origin main
+
+master kho chuẩn cũ, báo lỗi
+main chuẩn mới GitHub
+
+1. Chỉ làm lần đầu tiên khi mới cài git lần đầu tiên trên máy
+git config --global user.name ""
+			user.email
+2. Tạo project local, thư mục chứa code local qua NetBeans chuyển lệnh đến thư mục này
+-chế ra file .gitignore (copy sang thư mục chứa code)
+
+3. Chỉ làm lệnh này cho kho mới kho cũ dùng 3 lệnh huyền thoại
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/LamDoHoang/math-util.git
+git push -u origin main
+
+4. Bộ 3 lệnh huyền thoại xài hoài mỗi lần sửa code trong kho
+git add *
+git commit -m "lí do đưa lên"
+git push
