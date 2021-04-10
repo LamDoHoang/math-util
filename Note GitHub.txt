@@ -55,3 +55,13 @@ trong kho, có nút nhấn trên Server để invite(giống share google doc)
  Và ta quyết định merge ra sao. Dấu hiệu của ta và của server đc đánh dấu qua <<<<<<<<<<<<<
  Nhớ tắt file local trc khi gõ lệnh git pull
  Sau đó gõ 3 lệnh huyền thoại.
+
+
+*Mình làm chủ 1 kho, mình muốn di chuyển sang chổ khác
+*Hoặc mình có kho của ai đó, và ngta cho phép mình sửa kho ngta
+*Hoặc mình lỡ xóa local ròi, trên server còn
+
+-> Dùng lệnh : git clone + url của kho
+
+Git Tool sẽ tự động tải code về local, chổ mình đang đứng và tự động theo dõi mọi hoạt động trên local để sau này
+đồng bộ lên server != download .zip về

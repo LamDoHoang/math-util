@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package com.lamdh.util;
+package com.lamdh.mathutil;
 
 /**
  *
@@ -34,5 +34,6 @@ public class MathUtility {
             result = result*i;
         }
         return result;
+//        return n * getFactorial(n-1);//đệ quy
     }
 }

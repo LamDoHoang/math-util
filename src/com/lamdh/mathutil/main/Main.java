@@ -3,15 +3,15 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package math.util;
+package com.lamdh.mathutil.main;
 
-import com.lamdh.util.MathUtility;
+import com.lamdh.mathutil.MathUtility;
 
 /**
  *
  * @author ASUS
  */
-public class MathUtil {
+public class Main {
 
     /**
      * @param args the command line arguments
