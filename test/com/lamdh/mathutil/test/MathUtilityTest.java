@@ -58,6 +58,7 @@ public class MathUtilityTest {
         MathUtility.getFactorial(21);//biết ném ra Ex
         MathUtility.getFactorial(-1);//Ta phải chụp lại Ex
         MathUtility.getFactorial(40);//nếu có thật, hàm dúng, XANH
+        MathUtility.getFactorial(3);
     }
 }
 
